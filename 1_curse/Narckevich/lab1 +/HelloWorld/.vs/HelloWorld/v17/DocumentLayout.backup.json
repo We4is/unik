@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab1\\HelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F10C9FB1-6192-4444-B448-38B9AF08B24D}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab1\\HelloWorld\\HelloWorld\\Hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F10C9FB1-6192-4444-B448-38B9AF08B24D}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hello.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab1\\HelloWorld\\HelloWorld\\Hello.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\Hello.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab1\\HelloWorld\\HelloWorld\\Hello.cpp",
+              "RelativeToolTip": "HelloWorld\\Hello.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-02T12:43:09.89Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

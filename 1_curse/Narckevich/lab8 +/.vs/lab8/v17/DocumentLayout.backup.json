@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|solutionrelative:lab8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_mul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|solutionrelative:lab8\\file_mul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{615F27B3-6DEA-4D0B-8069-2BF43C61D8BD}|lab8\\lab8.vcxproj|solutionrelative:lab8\\file_sum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\main.cpp",
+              "RelativeDocumentMoniker": "lab8\\main.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\main.cpp",
+              "RelativeToolTip": "lab8\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-03T20:28:06.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "file_sum.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_sum.cpp",
+              "RelativeDocumentMoniker": "lab8\\file_sum.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_sum.cpp",
+              "RelativeToolTip": "lab8\\file_sum.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-03T20:28:33.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "file_mul.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_mul.cpp",
+              "RelativeDocumentMoniker": "lab8\\file_mul.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab8\\lab8\\file_mul.cpp",
+              "RelativeToolTip": "lab8\\file_mul.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-03T20:28:21.667Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

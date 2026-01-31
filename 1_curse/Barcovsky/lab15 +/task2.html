@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/task2.css">
+    <title>Форма</title>
+</head>
+
+<body>
+    <section>
+        <h1>Данные студента</h1>
+        <form action="">
+            <label for="name">Имя студента <input type="text" placeholder="обязательно заполнить" required
+                    id="name"></label>
+            <label for="secondName">Отчество студента <input type="text" placeholder="обязательно заполнить" required
+                    id="secondName"></label>
+            <label for="fam">Фамилия студента <input type="text" placeholder="обязательно заполнить" required
+                    id="fam"></label>
+            <label for="mail">Адрес почты <input type="mail" id="mail"></label>
+            <label for="number">Контактный номер <input type="text" id="number"></label>
+            <span id="set">Какую социальную сеть вы используете?
+                <label for="vk"><input type="checkbox" name="" id="vk">VK</label>
+                <label for="facebook"><input type="checkbox" name="" id="facebook">Facebook</label>
+                <label for="instagram"><input type="checkbox" name="" id="instagram">Instagram</label>
+            </span>
+            <label for="faculty">Факультет
+                <select id="faculty" name="faculty">
+                    <option value="ФИТ">ФИТ</option>
+                    <option value="ХТИТ">ХТИТ</option>
+                    <option value="ТОВ">ТОВ</option>
+                    <option value="ИЭФ">ИЭФ</option>
+                    <option value="ЛХФ">ЛХФ</option>
+                </select>
+            </label>
+
+            <label for="group">Группа
+                <select id="group" name="group">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </label>
+            <label for="course">Курс
+                <select id="course" name="course">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </label>
+
+            <button type="button" class="submit">отправить</button></td>
+        </form>
+    </section>
+    <footer class="footerOutput"></footer>
+    <script src="./script/task2.js"></script>
+</body>
+</html>

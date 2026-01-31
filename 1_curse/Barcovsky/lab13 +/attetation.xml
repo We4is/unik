@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<table>
+    <student>
+        <name>Бакачёва А. Д.</name>
+        <matanal>6</matanal>
+        <alovs>5</alovs>
+        <lailag>6</lailag>
+        <opi>5</opi>
+        <cml>8</cml>
+        <bel>9</bel>
+        <eng>9</eng>
+        <physc>8</physc>
+    </student>
+    <student>
+        <name>Баран А. В.</name>
+        <matanal>6</matanal>
+        <alovs>6</alovs>
+        <lailag>6</lailag>
+        <opi>6</opi>
+        <cml>8</cml>
+        <bel>9</bel>
+        <eng>8</eng>
+        <physc>8</physc>
+    </student>
+    <student>
+        <name>Барташевич А. А.</name>
+        <matanal>5</matanal>
+        <alovs>4</alovs>
+        <lailag>5</lailag>
+        <opi>5</opi>
+        <cml>8</cml>
+        <bel>7</bel>
+        <eng>7</eng>
+        <physc>8</physc>
+    </student>
+    <student>
+        <name>Белокуров В. П.</name>
+        <matanal>6</matanal>
+        <alovs>8</alovs>
+        <lailag>8</lailag>
+        <opi>9</opi>
+        <cml>5</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Блажевич Е. Н.</name>
+        <matanal>7</matanal>
+        <alovs>6</alovs>
+        <lailag>6</lailag>
+        <opi>10</opi>
+        <cml>9</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Болгов М. И.</name>
+        <matanal>4</matanal>
+        <alovs>7</alovs>
+        <lailag>4</lailag>
+        <opi>6</opi>
+        <cml>4</cml>
+        <bel>6</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Бондарович И. С.</name>
+        <matanal>7</matanal>
+        <alovs>5</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>8</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Браниций Д. А.</name>
+        <matanal>7</matanal>
+        <alovs>6</alovs>
+        <lailag>5</lailag>
+        <opi>6</opi>
+        <cml>8</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Бут-Г В.</name>
+        <matanal>8</matanal>
+        <alovs>7</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>9</cml>
+        <bel>7</bel>
+        <eng>7</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Винничек К. Н.</name>
+        <matanal>5</matanal>
+        <alovs>6</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>8</cml>
+        <bel>8</bel>
+        <eng>9</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Волчук Е. В.</name>
+        <matanal>4</matanal>
+        <alovs>6</alovs>
+        <lailag>5</lailag>
+        <opi>6</opi>
+        <cml>4</cml>
+        <bel>7</bel>
+        <eng>6</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Даньков Д. А.</name>
+        <matanal>4</matanal>
+        <alovs>5</alovs>
+        <lailag>4</lailag>
+        <opi>5</opi>
+        <cml>6</cml>
+        <bel>5</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Золотарёв П. С.</name>
+        <matanal>4</matanal>
+        <alovs>4</alovs>
+        <lailag>5</lailag>
+        <opi>10</opi>
+        <cml>4</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Ильина Д. С.</name>
+        <matanal>3</matanal>
+        <alovs>9</alovs>
+        <lailag>6</lailag>
+        <opi>9</opi>
+        <cml>6</cml>
+        <bel>8</bel>
+        <eng>9</eng>
+        <physc>5</physc>
+    </student>
+    <student>
+        <name>Исаева Д. Д.</name>
+        <matanal>6</matanal>
+        <alovs>6</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>9</cml>
+        <bel>9</bel>
+        <eng>9</eng>
+        <physc>8</physc>
+    </student>
+    <student>
+        <name>Казаков Н. А.</name>
+        <matanal>7</matanal>
+        <alovs>7</alovs>
+        <lailag>8</lailag>
+        <opi>10</opi>
+        <cml>9</cml>
+        <bel>8</bel>
+        <eng>9</eng>
+        <physc>8</physc>
+    </student>
+    <student>
+        <name>Клименко И. И.</name>
+        <matanal>4</matanal>
+        <alovs>5</alovs>
+        <lailag>4</lailag>
+        <opi>5</opi>
+        <cml>3</cml>
+        <bel>9</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Клочко Д. М.</name>
+        <matanal>7</matanal>
+        <alovs>7</alovs>
+        <lailag>9</lailag>
+        <opi>9</opi>
+        <cml>9</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Кузыченко А. С.</name>
+        <matanal>4</matanal>
+        <alovs>4</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>9</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Кухаренко А. К.</name>
+        <matanal>8</matanal>
+        <alovs>8</alovs>
+        <lailag>8</lailag>
+        <opi>10</opi>
+        <cml>9</cml>
+        <bel>9</bel>
+        <eng>9</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Лесько Н. И.</name>
+        <matanal>7</matanal>
+        <alovs>8</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>9</cml>
+        <bel>9</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Лисовский М. А.</name>
+        <matanal>4</matanal>
+        <alovs>7</alovs>
+        <lailag>4</lailag>
+        <opi>9</opi>
+        <cml>8</cml>
+        <bel>8</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Микулич А. С.</name>
+        <matanal>4</matanal>
+        <alovs>6</alovs>
+        <lailag>3</lailag>
+        <opi>10</opi>
+        <cml>9</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Мухарский А. О.</name>
+        <matanal>6</matanal>
+        <alovs>6</alovs>
+        <lailag>6</lailag>
+        <opi>10</opi>
+        <cml>10</cml>
+        <bel>8</bel>
+        <eng>9</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Мухин П. Д.</name>
+        <matanal>7</matanal>
+        <alovs>8</alovs>
+        <lailag>7</lailag>
+        <opi>10</opi>
+        <cml>7</cml>
+        <bel>9</bel>
+        <eng>9</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Осипов А. А.</name>
+        <matanal>8</matanal>
+        <alovs>8</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>8</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Силко Н. А.</name>
+        <matanal>8</matanal>
+        <alovs>8</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>8</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>7</physc>
+    </student>
+    <student>
+        <name>Ханецкий Д. Р.</name>
+        <matanal>6</matanal>
+        <alovs>8</alovs>
+        <lailag>7</lailag>
+        <opi>9</opi>
+        <cml>7</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Цыганок А. Д.</name>
+        <matanal>4</matanal>
+        <alovs>3</alovs>
+        <lailag>3</lailag>
+        <opi>10</opi>
+        <cml>6</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Шеремета Я. Е.</name>
+        <matanal>4</matanal>
+        <alovs>4</alovs>
+        <lailag>5</lailag>
+        <opi>9</opi>
+        <cml>7</cml>
+        <bel>8</bel>
+        <eng>9</eng>
+        <physc>6</physc>
+    </student>
+    <student>
+        <name>Яцко А. И.</name>
+        <matanal>5</matanal>
+        <alovs>7</alovs>
+        <lailag>5</lailag>
+        <opi>6</opi>
+        <cml>8</cml>
+        <bel>7</bel>
+        <eng>8</eng>
+        <physc>6</physc>
+    </student>
+</table>

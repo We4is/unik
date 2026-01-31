@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Monotype Corsiva';
+    color: purple;
+}
+.podpunkt1>li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: red;
+}
+.podpunkt2>li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: yellow;
+}
+.podpunkt3>li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    color: green;
+}
+table{
+    border-collapse: collapse;
+}
+table tr td{
+    color: pink;
+    border: 1px solid black;
+}

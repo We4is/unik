@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Honor\Desktop\universitet\Beloded\lab16\lab16\lab16\main.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  task1.cpp
+  task2.cpp
+  Создание кода...
+  lab16.vcxproj -> C:\Users\Honor\Desktop\universitet\Beloded\lab16\lab16\x64\Debug\lab16.exe

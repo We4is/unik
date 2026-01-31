@@ -1,0 +1,55 @@
+/* 
+<p class="p_1">Cплошная граница коричневого цвета слева, внизу желтая, справа темно-синяя, вверху оранжевая.</p>
+<p class="p_2">Слева и справа сплошная линия #007BA7</p>
+<p class="p_3">Сплошную граница (229 43 80) сверху, и пунктирную границу голубого цвета слева, справа и снизу.</p>
+<p class="p_4">Точечная граница оранжевого цвета 1 пиксель</p>
+<p class="p_5">Граница темно-синего цвета толщиной 2 пикселя сверху и снизу и пунктирную границу  бордового цвета слева и справа</p>
+<p class="p_6">Двойная сплошная граница #B3446C цвета</p> 
+<p class="p_7">Пунктирную границу #808000 цвета и толщиной 1 пиксель сверху и сплошную границу #FF7518 цвета толщиной 3 пикселя снизу.</p>
+<p class="p_8">Двойная сплошная граница #CC7722 цвета слева и внизу</p>
+<p class="p_9">Граница гребень #B5A642 цвета справа и сверху</p>
+<p class="p_10">Точечная граница слева, справа, снизу толщиной 5px и (0 40 0) цвета</p> 
+*/
+
+.p_1 {
+    border-style: solid;
+    border-top-color: orange darkblue yellow brown;
+}
+
+.p_2 {
+    border-left: 5px solid #007BA7;
+    border-right: 5px solid #007BA7;
+}
+.p_3{
+    border: dashed 5px aqua;
+    border-top: solid 5px rgb(229, 43,80);
+}
+.p_4{
+    border: 1px orange dotted;
+}
+.p_5{
+    border-top: 2px darkblue solid;
+    border-bottom: 2px darkblue solid;
+    border-left: 2px rgb(176, 30, 30) dashed;
+    border-right: 2px rgb(176, 30, 30) dashed;
+}
+.p_6{
+    border: 5px double #b3446c;
+}
+.p_7{
+    border-top: 1px dashed #808000;
+    border-bottom: 3px solid #ff7518;
+}
+.p_8{
+    border-top: 5px double #cc7722;
+    border-bottom: 5px double #cc7722;
+}
+.p_9{
+    border-top: #B5A642 5px ridge;
+    border-right: #B5A642 5px ridge;
+}
+.p_10{
+    border-left: 5px dotted rgb(0,40,0);
+    border-right: 5px dotted rgb(0,40,0);
+    border-bottom: 5px dotted rgb(0,40,0);
+}

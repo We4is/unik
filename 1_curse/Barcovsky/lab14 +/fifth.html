@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fifth</title>
+</head>
+
+<body>
+    <svg width="1500" height="400">
+        <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="green" />
+                <stop offset="50%" stop-color="yellow" />
+                <stop offset="100%" stop-color="orange" />
+            </linearGradient>
+        </defs>
+
+        <circle id="myCircle" cx="100" cy="100" r="100" fill="blue" stroke-width="3">
+            <animate attributeName="stroke" attributeType="XML" values="blue;cyan;magenta;red;orange;blue" dur="4s"
+                begin="myCircle.mouseover" repeatCount="indefinite" />
+            <animate attributeName="stroke-width" values="3;5;3" dur="1s" begin="myCircle.mouseover"
+                repeatCount="indefinite" />
+        </circle>
+
+        <g id="squareGroup">
+            <rect x="250" y="0" width="250" height="250" fill="red" />
+            <rect x="250" y="0" width="250" height="250" fill="none" stroke="gold" stroke-width="3"
+                stroke-dasharray="1000" stroke-dashoffset="1000">
+                <animate attributeName="stroke-dashoffset" values="1000;0" dur="1.5s" begin="squareGroup.mouseover"
+                    fill="freeze" />
+                <animate attributeName="stroke-dashoffset" values="0;1000" dur="1s" begin="squareGroup.mouseout"
+                    fill="freeze" />
+            </rect>
+        </g>
+        <ellipse id="myEllipse" cx="800" cy="100" rx="200" ry="100" fill="green">
+            <animate attributeName="fill" attributeType="XML" values="green;yellow;red;purple;blue;green" dur="3s"
+                begin="myEllipse.click" fill="freeze" />
+        </ellipse>
+        <polygon id="treug" points="1000 200 1200 0 1400 200" fill="url(#gradient)"></polygon>
+    </svg>
+</body>
+
+</html>

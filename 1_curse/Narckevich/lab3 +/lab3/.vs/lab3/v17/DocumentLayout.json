@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab3 \u002B\\lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04798D02-5448-4C01-AEFD-2ED9F64D8AA2}|lab3\\lab3.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab3 \u002B\\lab3\\lab3\\lab3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{04798D02-5448-4C01-AEFD-2ED9F64D8AA2}|lab3\\lab3.vcxproj|solutionrelative:lab3\\lab3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lab3.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab3 \u002B\\lab3\\lab3\\lab3.cpp",
+              "RelativeDocumentMoniker": "lab3\\lab3.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\Narckevich\\lab3 \u002B\\lab3\\lab3\\lab3.cpp",
+              "RelativeToolTip": "lab3\\lab3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-21T22:37:56.094Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

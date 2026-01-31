@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td, th{
+    border: 1px solid black;
+    height: 50px;
+    padding: 5px;
+}
+.nischaya td{
+    height: 15px;
+}
+.day{
+    writing-mode: sideways-lr;
+    width: 50px;
+}
+th:first-child, .nischaya td:first-child{
+    background-color: pink;
+}

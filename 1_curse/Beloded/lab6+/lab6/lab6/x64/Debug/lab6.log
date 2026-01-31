@@ -1,0 +1,8 @@
+﻿  main.cpp
+  task5_1.cpp
+  task5_2.cpp
+C:\Users\Honor\Desktop\universitet\Beloded\lab6\lab6\lab6\task5_2.cpp(14,8): warning C4305: -=: усечение из "double" в "float"
+  task5_3.cpp
+C:\Users\Honor\Desktop\universitet\Beloded\lab6\lab6\lab6\task5_3.cpp(19,9): warning C4305: +=: усечение из "double" в "float"
+  Создание кода...
+  lab6.vcxproj -> C:\Users\Honor\Desktop\universitet\Beloded\lab6\lab6\x64\Debug\lab6.exe

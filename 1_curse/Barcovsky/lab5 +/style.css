@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th{
+    border: 1px solid black;
+}
+#empty{
+    background-color: inherit;
+    border: none;
+}
+thead tr th, .header_td, tr td:nth-child(1), tr td:nth-child(2),tr td:nth-child(3){
+    height: 50px;
+}
+
+tr td:nth-child(1), tr td:nth-child(3){
+    background-color: rgba(91, 176, 91, 0.7);
+    width: 300px; 
+}
+
+tr td:nth-child(2){
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 100px;
+}
+
+#day{
+    writing-mode: sideways-lr;
+    background-color: aquamarine;
+}
+#header_tr td{
+    background-color:bisque;
+}
+#header_tr #empty{
+    background-color:inherit;
+}

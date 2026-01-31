@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "y y y y" 
+    "x w w x2" 
+    "x w w x2" 
+    "y2 y2 y2 y2";
+    grid-template-columns: 60px 100px 100px 80px;
+    grid-template-rows: 60px 100px 100px 60px;
+    word-break: break-all;
+    text-align: center;
+    grid-gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    padding: 10px;
+}
+li{
+    padding-top: 10px;
+    writing-mode: sideways-lr;
+    list-style: none;
+}
+.grid nav, header, article, aside, footer{
+    padding-top: 15px;
+    overflow: hidden;
+}
+nav {
+    grid-area: x;
+}
+header {
+    grid-area: y;
+}
+article{
+    grid-area: w;
+}
+aside{
+    grid-area: x2;
+}
+footer{
+    grid-area: y2;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style/style.css"?>
+<!DOCTYPE store[
+<!ELEMENT store (title, product*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT product (ptitle, price, year)>
+<!ELEMENT ptitle (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ENTITY title "iPhone">
+<!ENTITY year "2025">]>
+<store>
+    <title>Store</title>
+    <product>
+        <ptitle>iPhone</ptitle>
+        <price>10000000</price>
+        <year>&year;</year>
+    </product>
+    <product>
+        <ptitle>Xiaomi</ptitle>
+        <price>10000</price>
+        <year>2018</year>
+    </product>
+    <product>
+        <ptitle>Samsung</ptitle>
+        <price>30000</price>
+        <year>&year;</year>
+    </product>
+    <product>
+        <ptitle>OnePixel</ptitle>
+        <price>20000</price>
+        <year>&year;</year>
+    </product>
+    <product>
+        <ptitle>break</ptitle>
+        <price>10000000</price>
+        <year>2000</year>
+    </product>
+</store>

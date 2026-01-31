@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style/style.css"?>
+<store>
+    <title>Store</title>
+    <product>
+        <ptitle>iPhone</ptitle>
+        <price>10000000</price>
+        <year>2025</year>
+    </product>
+    <product>
+        <ptitle>Xiaomi</ptitle>
+        <price>10000</price>
+        <year>2018</year>
+    </product>
+    <product>
+        <ptitle>Samsung</ptitle>
+        <price>30000</price>
+        <year>2025</year>
+    </product>
+    <product>
+        <ptitle>OnePixel</ptitle>
+        <price>20000</price>
+        <year>2025</year>
+    </product>
+    <product>
+        <ptitle>break</ptitle>
+        <price>10000000</price>
+        <year>2000</year>
+    </product>
+</store>

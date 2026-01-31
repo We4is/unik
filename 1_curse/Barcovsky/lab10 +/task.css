@@ -1,0 +1,154 @@
+@import url(./task3_3.css) (min-width: 768px) and (max-width: 1280px);
+@import url(./task3_1.css) (min-width: 480px) and (max-width: 768px);
+@import url(./task3_2.css) (max-width: 480px);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+.flex {
+    width: 90%;
+}
+
+a {
+    display: inline-block;
+    width: 80px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+figure {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.invis ul {
+    display: flex;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+h2{
+    margin-right: 20px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.flex_img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex_img img {
+    width: 350px;
+    height: 350px;
+    margin: 0 10px 10px 0;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    justify-content: center;
+    min-height: 70px;
+}
+figcaption{
+    font-size: 40px;
+}
+.invis {
+    position: absolute;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.invis>img {
+    display: none;
+    position: absolute;
+    width: 50px;
+}
+
+.flex>div {
+    width: 30%;
+    min-height: 600px;
+}
+
+audio {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+video {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1280px) {
+    .flex_img img {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .invis {
+        top: 20px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    header {
+        width: 40%;
+        margin: auto;
+    }
+
+    .flex {
+        width: 90%;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .flex>div {
+        width: 100%;
+    }
+
+    header>h2 {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    .invis>ul {
+        display: none;
+        position: absolute;
+        top: -15px;
+        left: 60px;
+    }
+
+    .invis>img {
+        display: block;
+    }
+
+    .invis:hover>ul {
+        display: block;
+    }
+}
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text</title>
+    <style>
+        @font-face {
+            font-family: "Comfortaa";
+            src:
+                url("./fonts/Comfortaa.ttf") format("truetype"),
+                url("./fonts/Comfortaa.woff") format("woff"),
+                url("./fonts/Comfortaa.svg") format("svg");
+        }
+
+        @font-face {
+            font-family: "Exo2";
+            src:
+                url("./fonts/Exo2.ttf") format("truetype"),
+                url("./fonts/Exo2.woff") format("woff"),
+                url("./fonts/Exo2.svg") format("svg");
+        }
+
+        @font-face {
+            font-family: "Caveat";
+            src:
+                url("./fonts/Caveat.ttf") format("truetype"),
+                url("./fonts/Caveat.woff") format("woff"),
+                url("./fonts/Caveat.svg") format("svg");
+        }
+
+        h1 {
+            font-family: 'Caveat';
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: 10px 10px 10px;
+            text-align: center;
+            margin: 0;
+        }
+
+        h1::first-letter {
+            font-size: 45px;
+        }
+
+        h2 {
+            font-family: 'Exo2';
+            margin-top: 0.2rem;
+            margin-bottom: 1.2em;
+            text-indent: 25px;
+            text-align: left;
+        }
+
+        p {
+            font-family: 'Comfortaa';
+            text-indent: 25px;
+            text-align: justify;
+            line-height: 2;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        p::first-letter {
+            font-weight: bold;
+            font-size: 45px;
+            color: white;
+            background-color: hsla(275, 100%, 10%, 1);
+        }
+
+        li::marker {
+            color: blue;
+        }
+
+        ol {
+            list-style-type: upper-roman;
+            font-family: 'Comfortaa';
+        }
+
+        li {
+            color: black;
+            font-size: 20px;
+
+        }
+
+        .otstup {
+            margin-bottom: 0;
+
+        }
+
+        .last_p {
+            font-family: 'Comfortaa';
+        }
+
+        .last_p::first-line{
+            color: red;
+            background-color: inherit;
+            
+        }
+        .last_p::first-letter {
+            color: red;
+            background-color: inherit;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Урбан-сказка о маленьких радостях</h1>
+    <h2>Поиск волшебства в повседневности</h2>
+    <p>Город живет в бешеном ритме, но если присмотреться, он полон маленьких чудес. Волшебство прячется не в далеких
+        странах, а в мелочах, которые мы перестали замечать.</p>
+    <p>Это первый луч солнца на стене высотного здания, идеальный кофе с собой в хмурое утро или улыбка незнакомца в
+        метро.</p>
+    <h2>Как включить "режим искателя"?</h2>
+    <p>Нужно просто замедлиться и настроить восприятие. Смотреть на город как на живого персонажа, у которого есть свои
+        секреты и подсказки.</p>
+    <h2 class="otstup">Пять ключей к городской магии</h2>
+
+    <ol>
+        <li>Выберите новый маршрут до работы или дома.</li>
+        <li>Обращайте внимание на архитектурные детали: лепнину, старые вывески, кованые решетки.</li>
+        <li>Поднимите голову и посмотрите на небо между крышами.</li>
+        <li>Посетите маленький независимый книжный магазин или кафе.</li>
+        <li>Сфотографируйте одну интересную тень, цветок в бетоне или отражение в луже.</li>
+    </ol>
+    <p class="last_p">Город заиграет новыми красками. Вы поймете, что даже в самом привычном и сером на самом деле
+        скрывается целая вселенная.<br>Каждый день — это новое приключение, нужно лишь выбратьсь из рутины и захотеть
+        его увидеть.<br>Откройте глаза, и город расскажет вам свою самую удивительную историю. Вашу историю.</p>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.row{
+    margin-top: 20px;
+}
+nav{
+    margin-top: 5px;
+}
+nav a{
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+}

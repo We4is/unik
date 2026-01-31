@@ -1,0 +1,54 @@
+
+store {
+    display: table;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+title {
+    display: table-caption;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+product {
+    display: table-row;
+    border-bottom: 1px solid #ddd;
+}
+
+product:hover {
+    background-color: #f0f0f0;
+}
+
+ptitle, price, year {
+    display: table-cell;
+    padding: 12px 15px;
+    text-align: left;
+    border-right: 1px solid #ddd;
+}
+
+product:first-child {
+    font-weight: bold;
+    background-color: #4cafa5;
+    color: white;
+}
+
+ptitle {
+    font-weight: bold;
+    color: #333;
+}
+
+price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+year {
+    color: #7f8c8d;
+}

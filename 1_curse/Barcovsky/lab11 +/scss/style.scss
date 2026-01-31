@@ -1,0 +1,189 @@
+@import "_perem";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@function h-size($h-size) {
+    @return $h-size / 1.5;
+}
+
+@function h-color($h-size) {
+    @if ($h-size >= 32){
+        @return $color_aside;
+    }
+    @else{
+        @return $color_footer;
+    }
+    
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%default_button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    background-image: url(../image/images.png);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 100px;
+    }
+
+    nav {
+        @include flex();
+
+        a {
+            border: 2px solid $color_cont;
+            padding: 10px;
+            margin-left: 20px;
+            color: $color_cont;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        a:hover {
+            background-color: $color_cont;
+            color: white;
+            transition: all 0.5s;
+        }
+    }
+}
+
+main {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    h1 {
+        font-size: $h1-size;
+    }
+
+    h2 {
+        font-size: $h2-size;
+    }
+
+    .container {
+        width: 60%;
+        background-color: $color_cont;
+        border-radius: 20px;
+        padding: 20px;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .text_container {
+            @include flex();
+            margin-bottom: 60px;
+
+            p {
+                width: 32%;
+                font-size: h-size($h1-size);
+                color: h-color($h1-size);
+            }
+        }
+
+        .image_container {
+            @include flex();
+
+            img {
+                border-radius: 20px;
+                width: 24%;
+            }
+        }
+
+    }
+
+    aside {
+        width: 30%;
+        background-color: $color_aside;
+        border-radius: 20px;
+        padding: 20px;
+
+        p {
+            font-size: h-size($h2-size);
+            color: h-color($h2-size);
+        }
+
+        form {
+            min-height: 175px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 60px;
+
+            div {
+                width: 60%;
+                @include flex();
+                font-size: 18px;
+
+                input {
+                    outline: none;
+                    border: 2px solid black;
+                    border-radius: 5px;
+                    padding: 2px;
+                }
+            }
+
+            button {
+                @extend %default_button;
+            }
+
+            button:hover {
+                background-color: black;
+                color: white;
+                transition: 0.5s;
+            }
+        }
+
+        .aside_footer {
+            .float_img {
+                @include flex();
+                margin-top: 50px;
+
+                img {
+                    width: 45%;
+                    margin-right: 10px;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $color_footer;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

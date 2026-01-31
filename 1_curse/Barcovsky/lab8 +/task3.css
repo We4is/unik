@@ -1,0 +1,48 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav>ul>li{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    border: 1px solid green;
+    background-color: yellow;
+    color: brown;
+}
+
+nav>ul>li:hover li {
+    display: block;
+}
+
+nav ul {
+    position: absolute;
+}
+.second{
+    position: relative;
+    left: -50px;
+}
+.second li {
+    display: none;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    border: 2px dashed black;
+    background-color: rgba(165, 42, 42, 0.5);
+}
+.second li:nth-child(2) a{
+    display: block;
+    line-height: 25px;
+}
+.second li:nth-child(2){
+    border-top: none;
+    border-bottom: none;
+}
