@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ECE29C2-6371-4C95-88D8-57CC9502FD41}|dopTask\\dopTask.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\dopTask\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7ECE29C2-6371-4C95-88D8-57CC9502FD41}|dopTask\\dopTask.vcxproj|solutionrelative:dopTask\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613E9003-3944-40BD-AB65-36373A503BAF}|lab1\\lab1.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{613E9003-3944-40BD-AB65-36373A503BAF}|lab1\\lab1.vcxproj|solutionrelative:lab1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52EA6A34-6F94-4CD8-BA27-6DCCBE40BB16}|task2\\task2.vcxproj|C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\task2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52EA6A34-6F94-4CD8-BA27-6DCCBE40BB16}|task2\\task2.vcxproj|solutionrelative:task2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\task2\\main.cpp",
+              "RelativeDocumentMoniker": "task2\\main.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\task2\\main.cpp",
+              "RelativeToolTip": "task2\\main.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-16T16:51:23.834Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\dopTask\\main.cpp",
+              "RelativeDocumentMoniker": "dopTask\\main.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\dopTask\\main.cpp*",
+              "RelativeToolTip": "dopTask\\main.cpp*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-17T05:27:08.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\lab1\\main.cpp",
+              "RelativeDocumentMoniker": "lab1\\main.cpp",
+              "ToolTip": "C:\\Users\\Honor\\Desktop\\universitet\\1_curse\\2_sem\\beloded\\lab1\\lab1\\main.cpp",
+              "RelativeToolTip": "lab1\\main.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-10T05:20:01.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Honor\Desktop\universitet\1_curse\2_sem\shiman\lab1\lab1\lab1\main.cpp(49,23): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+C:\Users\Honor\Desktop\universitet\1_curse\2_sem\shiman\lab1\lab1\lab1\main.cpp(59,23): warning C4244: =: преобразование "time_t" в "int", возможна потеря данных
+  lab1.vcxproj -> C:\Users\Honor\Desktop\universitet\1_curse\2_sem\shiman\lab1\lab1\x64\Debug\lab1.exe
