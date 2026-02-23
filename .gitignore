@@ -10,3 +10,7 @@
 *.bkp
 *.ipch
 *.inch
+*.vsidx
+*.pdb
+*.tlog
+*.log

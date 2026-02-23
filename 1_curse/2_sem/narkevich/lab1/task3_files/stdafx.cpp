@@ -45,7 +45,7 @@ int main() {
         happyYear = happyData % 10000;
 
         if (happyDay == 29 && happyMonth == 2) {
-            cout << "¬ведите перенесенную дату " << endl;
+            cout << "¬ведите перенесенную дату ƒн€ рождени€ " << endl;
             valid = false;
             continue;
         }
