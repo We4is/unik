@@ -7,10 +7,14 @@
 *.a
 *.lib
 *.so
+*.ilk
 *.bkp
 *.ipch
+*.suo
 *.inch
 *.vsidx
 *.pdb
+*.idb
 *.tlog
 *.log
+*cursach
