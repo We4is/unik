@@ -5,55 +5,74 @@ using namespace std;
 
 int main() {
     setlocale(LC_CTYPE, "rus");
-    ifstream fin("FILE1.txt");
-    ofstream fout("FILE2.txt");
 
-    char line[1024];
-    int maxA = -1, finalLine = 0, finalWord = 0, lineCnt = 0;
+    ifstream inputFile("FILE1.txt");
+    ofstream outputFile("FILE2.txt");
 
-    while (fin.getline(line, 1024)) {
-        lineCnt++;
-        char w[100][100];
-        int n = 0, cIdx = 0;
+    char lineBuffer[1024];
+    int maxACount = -1;
+    int targetLineNumber = 0;
+    int targetWordPosition = 0;
+    int currentLineNumber = 0;
+
+    while (inputFile.getline(lineBuffer, 1024)) {
+        currentLineNumber++;
+
+        char words[100][100];
+        int wordCount = 0;
+        int charIndex = 0;
 
         for (int i = 0; ; i++) {
-            if (line[i] != ' ' && line[i] != '\0') {
-                w[n][cIdx++] = line[i];
+            if (lineBuffer[i] != ' ' && lineBuffer[i] != '\0') {
+                words[wordCount][charIndex++] = lineBuffer[i];
             }
-            else if (cIdx > 0) {
-                w[n][cIdx] = '\0';
+            else if (charIndex > 0) {
+                words[wordCount][charIndex] = '\0';
 
-                int curA = 0;
-                for (int k = 0; w[n][k]; k++) {
-                    unsigned char c = w[n][k];
-                    if (c == 'a' || c == 'A' || c == 224 || c == 192) curA++;
+                int currentACount = 0;
+                for (int k = 0; words[wordCount][k]; k++) {
+                    unsigned char character = words[wordCount][k];
+                    if (character == 'a' || character == 'A' ||
+                        character == 224 || character == 192) {
+                        currentACount++;
+                    }
                 }
 
-                if (curA > maxA) {
-                    maxA = curA;
-                    finalLine = lineCnt;
-                    finalWord = n + 1;
+                if (currentACount > maxACount) {
+                    maxACount = currentACount;
+                    targetLineNumber = currentLineNumber;
+                    targetWordPosition = wordCount + 1;
                 }
-                n++; cIdx = 0;
+
+                wordCount++;
+                charIndex = 0;
             }
-            if (line[i] == '\0') break;
+
+            if (lineBuffer[i] == '\0') break;
         }
 
-        bool dup = false;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
+        bool hasDuplicates = false;
+        for (int i = 0; i < wordCount; i++) {
+            for (int j = i + 1; j < wordCount; j++) {
                 int k = 0;
-                while (w[i][k] && w[i][k] == w[j][k]) k++;
-                if (w[i][k] == '\0' && w[j][k] == '\0') dup = true;
+                while (words[i][k] && words[i][k] == words[j][k]) {
+                    k++;
+                }
+                if (words[i][k] == '\0' && words[j][k] == '\0') {
+                    hasDuplicates = true;
+                }
             }
         }
 
-        if (dup) fout << line << endl;
+        if (hasDuplicates) {
+            outputFile << lineBuffer << endl;
+        }
     }
 
-    cout << "Кол-во а: " << maxA << " В строке: " << finalLine << ", В слове: " << finalWord << endl;
+    cout << "Количество букв 'а': " << maxACount << " В строке: " << targetLineNumber << ", В слове: " << targetWordPosition << endl;
 
-    fin.close(); 
-    fout.close();
+    inputFile.close();
+    outputFile.close();
+
     return 0;
 }

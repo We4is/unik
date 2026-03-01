@@ -5,35 +5,39 @@ using namespace std;
 
 int main() {
     setlocale(LC_CTYPE, "rus");
-    char s[1000], p1[1000], p2[1000];
-    int k, i, j;
+
+    char inputString[1000];
+    char firstPart[1000];
+    char secondPart[1000];
+
+    int splitPosition; 
+    int sourceIndex, targetIndex;  
 
     cout << "Введите строку: ";
-    cin.getline(s, 1000);
+    cin.getline(inputString, 1000);
+    ofstream outputFile("f.txt");
+    outputFile << inputString;
+    outputFile.close();
 
-    ofstream fout("f.txt");
-    fout << s;
-    fout.close();
+    ifstream inputFile("f.txt");
+    inputFile.getline(inputString, 1000);
+    inputFile.close();
 
-    ifstream fin("f.txt");
-    fin.getline(s, 1000);
-    fin.close();
+    cout << "Введите k (позиция разделения): ";
+    cin >> splitPosition;
 
-    cout << "Введите k: ";
-    cin >> k;
-
-    for (i = 0; i < k && s[i] != '\0'; i++) {
-        p1[i] = s[i];
+    for (sourceIndex = 0; sourceIndex < splitPosition && inputString[sourceIndex] != '\0'; sourceIndex++) {
+        firstPart[sourceIndex] = inputString[sourceIndex];
     }
-    p1[i] = '\0';
+    firstPart[sourceIndex] = '\0'; 
 
-    for (j = 0; s[i] != '\0'; i++, j++) {
-        p2[j] = s[i];
+    for (targetIndex = 0; inputString[sourceIndex] != '\0'; sourceIndex++, targetIndex++) {
+        secondPart[targetIndex] = inputString[sourceIndex];
     }
-    p2[j] = '\0'; 
+    secondPart[targetIndex] = '\0'; 
 
-    cout << "Часть 1: " << p1 << endl;
-    cout << "Часть 2: " << p2 << endl;
+    cout << "Первая часть (первые " << splitPosition << " символов): " << firstPart << endl;
+    cout << "Вторая часть (остальные символы): " << secondPart << endl;
 
     return 0;
 }

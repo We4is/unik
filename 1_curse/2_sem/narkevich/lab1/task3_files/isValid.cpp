@@ -1,5 +1,5 @@
 #include "stdafx.h"
-
+#include "isValid.h"
 
 bool isValid(int& data) {
     cin >> data;

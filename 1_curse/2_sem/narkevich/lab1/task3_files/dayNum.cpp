@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "dayNum.h"
 
 
 int dayNum(int day, int month, int* months) {

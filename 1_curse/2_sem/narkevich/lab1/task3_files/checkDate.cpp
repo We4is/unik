@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "checkDate.h"
 
 
 bool checkDate(int day, int month, int year, int* months) {
